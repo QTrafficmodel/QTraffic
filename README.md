@@ -22,7 +22,7 @@ NOTE for Linux users:
 TEM Algoritm was developed and compied in Fortran under Win environment. To allow execution in a Linux environment
 it's necessary to have [wine](https://www.winehq.org/) installed.
 
-Qtraffic can be installed as qgis experimental plugin adding the following [repository](https://dl.dropboxusercontent.com/u/12837459/qgis_plugins/emsure.xml)
+Qtraffic can be installed as qgis experimental plugin adding the following [repository](https://raw.githubusercontent.com/QTrafficmodel/QTrafficPluginRepository/master/emsure.xml)
 
 License
 =======
