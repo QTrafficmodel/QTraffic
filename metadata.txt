@@ -20,8 +20,9 @@ about=QTraffic model is able to quantify traffic emission and energy consumption
 version=0.7.4
 qgisMinimumVersion=2.0
 
-author=University of Coimbra (http://www.uc.pt/) – Luigi Pirelli, Oxana Tchepel, Daniela Dias
-email=luipir@gmail.lcom
+author=University of Coimbra (PT) – Luigi Pirelli, Oxana Tchepel, Daniela Dias
+email=luipir@gmail.com
+maintainer=qtraffic_support@uc.pt
 
 # End of mandatory metadata
 
@@ -42,8 +43,8 @@ changelog=0.7.4 - added validation notification and removed doubled ini files (b
 tags=traffic, emission, road, modelling, energy, transport, urban, network analysis, routing
 
 homepage=http://www.uc.pt/en/efs/research/emsure/about
-tracker=https://github.com/luipir/QTraffic/issues
-repository=https://github.com/luipir/QTraffic
+tracker=https://github.com/QTrafficmodel/QTraffic/issues
+repository=https://github.com/QTrafficmodel/QTraffic
 category=Plugins
 icon=icon.png
 # experimental flag
