@@ -165,7 +165,8 @@ def jsonToTxt(jsonFileName, outTxtFileName):
             # manage the other fuel classes as usual
             for (fuelIndex, fuel) in enumerate(vehicle['children']):
                 # avoid add line if no children at all
-                if len(fuel['children']) == 0:
+                if (not hasattr(fuel, 'children')
+                    or len(fuel['children']) == 0):
                     continue
                 
                 # get fuel converted
@@ -219,7 +220,8 @@ def jsonToTxt(jsonFileName, outTxtFileName):
                 # now loop for each Euro class
                 for (euroIndex, euro) in enumerate(vehicle['children']):
                     # avoid add line if no children at all
-                    if len(euro['children']) == 0:
+                    if (not hasattr(euro, 'children') 
+                        or len(euro['children']) == 0):
                         continue
                     
                     # get Euro converted
@@ -268,7 +270,8 @@ def jsonToTxt(jsonFileName, outTxtFileName):
                 # now loop for each Euro class
                 for (euroIndex, euro) in enumerate(fuel['children']):
                     # avoid add line if no children at all
-                    if len(euro['children']) == 0:
+                    if (not hasattr(euro, 'children')
+                        or len(euro['children']) == 0):
                         continue
                     
                     # get Euro converted
