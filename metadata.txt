@@ -17,7 +17,7 @@ about=QTraffic model is able to quantify traffic emission and energy consumption
     it's necessary to have wine (https://www.winehq.org/) installed.
     LIMITATIONS: The plugin manages only shapfiles 
 
-version=0.7.5
+version=0.7.6
 qgisMinimumVersion=2.0
 
 author=University of Coimbra (PT) – Luigi Pirelli, Oxana Tchepel, Daniela Dias
@@ -29,7 +29,8 @@ maintainer=qtraffic_support@uc.pt
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-changelog=0.7.5 - updated alg version of Nov 3
+changelog=0.7.6 - Fixed issue converting fleet distribution
+    0.7.5 - updated alg version of Nov 3
     0.7.4 - added validation notification and removed doubled ini files (but not hidden)
     0.7.3 - aligned to EMSURE team comments
     0.7.2 - Changed button tooltip
